@@ -14,3 +14,5 @@
 
     implementation (name: 'mylibrary-release', ext:'aar')
 
+    http://dominoc925.blogspot.com/2015/09/how-to-create-and-use-android-archive.html
+
