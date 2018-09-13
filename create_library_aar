@@ -1,0 +1,16 @@
+ - Create library .aar
+ + create name module;
+ + Select Gradle on right --> name module --> double assembleRelease (or assembleDebug)
+ + get .arr : In project name module --> build -->outputs
+
+ + Add .aar in project
+   + Copy .arr in libs
+   + In build.gradle app : 
+    repositories{
+    flatDir{
+        dirs 'libs'
+    }
+    }
+
+    implementation (name: 'mylibrary-release', ext:'aar')
+
